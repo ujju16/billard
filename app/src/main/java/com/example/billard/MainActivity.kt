@@ -8,7 +8,7 @@ import android.widget.Toast
 
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : Activity() {
 
     lateinit var drawingView: DrawingView
 
