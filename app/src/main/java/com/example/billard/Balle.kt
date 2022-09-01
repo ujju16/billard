@@ -7,6 +7,11 @@ import android.graphics.RectF
 import java.util.*
 
 class Balle(x1: Float, y1: Float, val diametre: Float) {
+    fun draw(canvas: Canvas?) {
+        paint.color = color
+        canvas?.drawOval(r, paint)
+    }
+
     val random = Random()
     val paint = Paint()
     val r = RectF(x1, y1, x1 + diametre, y1 + diametre)
