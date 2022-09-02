@@ -9,4 +9,4 @@ Le jeu comporte des balles qui changent de grosseur et de couleur et une table. 
 
 
 
-`:copyright:Made with :purple_heart: by __ujju16__ :cyclone:`
+:copyright:Made with :purple_heart: by __ujju16__ :cyclone:
