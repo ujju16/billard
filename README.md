@@ -1,6 +1,6 @@
-# Billard :8ball:
+# :id: Billard :8ball:
 
-Création d'un jeu de billard en __Kotlin__ pour apprendre la :P: :O: :O:.
+Création d'un jeu de billard en __Kotlin__ pour apprendre la P:o::o:.
 
 ## Conception
 
