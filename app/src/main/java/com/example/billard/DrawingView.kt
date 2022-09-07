@@ -5,6 +5,7 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
 import android.util.AttributeSet
+import android.view.MotionEvent
 import android.view.SurfaceView
 import java.util.*
 
@@ -29,5 +30,23 @@ class DrawingView @JvmOverloads constructor(context: Context, attributes: Attrib
         b1.changeCouleur()
         b2.changeCouleur()
         b3.changeCouleur()
+    }
+
+    override fun onTouchEvent(e: MotionEvent): Boolean {
+        if (e.action == MotionEvent.ACTION_DOWN) {
+            val x = e.rawX - 100
+            val y = e.rawY - 300
+            if (b1.r.contains(x,y)) {
+                b1.showText = true
+            }
+            else if (b2.r.contains(x,y)) {
+                b2.showText = true
+            }
+            else if (b3.r.contains(x,y)) {
+                b3.showText = true
+            }
+            invalidate()
+        }
+        return true
     }
 }
