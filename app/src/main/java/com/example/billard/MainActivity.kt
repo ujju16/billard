@@ -20,8 +20,17 @@ class MainActivity : Activity() {
         drawingView.invalidate()
     }
 
+    override fun onPause() {
+        super.onPause()
+        drawingView.pause()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        drawingView.resume()
+    }
+
     fun onClick(v: View) {
        drawingView.changeCouleur()
-        drawingView.invalidate()
     }
 }
