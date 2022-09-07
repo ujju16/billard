@@ -12,6 +12,10 @@ class Balle(x1: Float, y1: Float, val diametre: Float) {
         canvas?.drawOval(r, paint)
     }
 
+    fun changeCouleur () {
+        var color = Color.argb(255, random.nextInt(256), random.nextInt(256), random.nextInt(256))
+    }
+
     val random = Random()
     val paint = Paint()
     val r = RectF(x1, y1, x1 + diametre, y1 + diametre)

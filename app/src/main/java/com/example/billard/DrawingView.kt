@@ -24,4 +24,10 @@ class DrawingView @JvmOverloads constructor(context: Context, attributes: Attrib
         b2.draw(canvas)
         b3.draw(canvas)
     }
+
+    fun changeCouleur () {
+        b1.changeCouleur()
+        b2.changeCouleur()
+        b3.changeCouleur()
+    }
 }
