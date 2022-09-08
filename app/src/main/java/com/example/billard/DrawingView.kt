@@ -35,6 +35,7 @@ class DrawingView @JvmOverloads constructor(context: Context, attributes: Attrib
         drawing = true
         thread = Thread(this)
         thread.start()
+        thread.stop()
     }
 
     fun draw() {
