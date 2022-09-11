@@ -8,7 +8,7 @@ Le jeu comporte des balles qui changent de grosseur, de couleur et une table. Le
 
 Construction de différentes classes, étude de l'intéraction entre ces classes.
 
-Utilisation de _Android studio_.
+Utilisation d'_Android studio_.
 
 
 :copyright: Made with :purple_heart: by __ujju16__ :cyclone:
